@@ -1,0 +1,12 @@
+{
+  "name": "Plots",
+  "short_name": "Plots",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F4F4F4",
+  "theme_color": "#F4F4F4",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,19 @@
+# build output
+Plots.app/
+__pycache__/
+*.pyc
+
+# local data (workspaces live in ~/.plots; this is for a data/ folder next to the engine)
+data/
+
+# the demo's sandbox
+demo/.home/
+demo/.work/
+demo/node_modules/
+docs/assets/.video/
+docs/assets/*.webm
+
+# editors and macOS
+.DS_Store
+*.bak*
+.claude/settings.local.json

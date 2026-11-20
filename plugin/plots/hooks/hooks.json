@@ -1,0 +1,14 @@
+{
+  "description": "Plots: tell a session which workspace it works on, and deliver notes from the Plots app as soon as they arrive.",
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [ { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/plots_hook.py\" session-start", "timeout": 10 } ] }
+    ],
+    "UserPromptSubmit": [
+      { "hooks": [ { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/plots_hook.py\" prompt", "timeout": 10 } ] }
+    ],
+    "PostToolUse": [
+      { "matcher": "*", "hooks": [ { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/plots_hook.py\" tool", "timeout": 10 } ] }
+    ]
+  }
+}

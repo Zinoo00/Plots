@@ -1,0 +1,7 @@
+{
+  "name": "plots",
+  "version": "1.0.0",
+  "description": "Keeps a Plots workspace up to date while Claude Code works on a project, and delivers the notes you send from the Plots app to the working session, even mid-task.",
+  "author": { "name": "Plots" },
+  "keywords": ["progress", "tracker", "notes"]
+}

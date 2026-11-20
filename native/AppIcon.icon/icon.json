@@ -1,0 +1,64 @@
+{
+  "fill": {
+    "automatic-gradient": "display-p3:0.11765,0.14118,0.27843,1.00000"
+  },
+  "groups": [
+    {
+      "layers": [
+        {
+          "image-name": "done.svg",
+          "name": "done",
+          "glass": true
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.35
+      },
+      "specular": true
+    },
+    {
+      "layers": [
+        {
+          "image-name": "flight.svg",
+          "name": "flight",
+          "glass": true
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.35
+      },
+      "specular": true
+    },
+    {
+      "layers": [
+        {
+          "image-name": "rest.svg",
+          "name": "rest",
+          "glass": true
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.6
+      },
+      "specular": true
+    }
+  ],
+  "supported-platforms": {
+    "squares": "shared"
+  }
+}

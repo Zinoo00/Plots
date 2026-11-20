@@ -1,0 +1,15 @@
+{
+  "name": "plots-demo",
+  "private": true,
+  "description": "Screenshots and recordings of the Plots demo for the README",
+  "type": "module",
+  "scripts": {
+    "start": "sh run.sh",
+    "stop": "sh run.sh stop",
+    "capture": "node capture.mjs",
+    "record": "node capture.mjs --video"
+  },
+  "devDependencies": {
+    "playwright": "1.61.1"
+  }
+}

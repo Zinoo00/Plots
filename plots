@@ -1,0 +1,9 @@
+#!/bin/sh
+# Plots CLI: thin wrapper so Claude Code can run `plots <command>` (works through symlinks too).
+p="$0"
+while [ -h "$p" ]; do
+  d=$(cd "$(dirname "$p")" && pwd)
+  p=$(readlink "$p")
+  case "$p" in /*) ;; *) p="$d/$p" ;; esac
+done
+exec python3 "$(cd "$(dirname "$p")" && pwd)/plots.py" "$@"
